@@ -26,3 +26,9 @@ spec:
               value: en
             - name: I18N_LOCALES
               value: en,tr
+            - name: DB_HOST
+              value: "mongo"
+            - name: DB_PORT
+              value: "27017"
+            - name: DB_NAME
+              value: "ssi-persistent-car"
