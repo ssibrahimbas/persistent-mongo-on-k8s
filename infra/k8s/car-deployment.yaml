@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: car
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: car
+  template:
+    metadata:
+      labels:
+        app: car
+    spec:
+      containers:
+        - name: car
+          image: ssibrahimbas.com/persistent-mongo/car
+          env:
+            - name: PORT
+              value: ":3005"
+            - name: HOST
+              value: "0.0.0.0"
+            - name: I18N_LOCALE_DIR
+              value: ./src/locales
+            - name: I18N_FALLBACK
+              value: en
+            - name: I18N_LOCALES
+              value: en,tr

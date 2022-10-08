@@ -1,0 +1,12 @@
+not_found = "Not found."
+invalid_request = "Invalid request."
+
+# cars
+car_list = "Car list."
+car_created = "Car created."
+car_already_exists = "Car already exists."
+
+# validation
+validation_required = "This field is required."
+validation_min = "This field must be at least {{.Min}} characters."
+validation_max = "This field must be at most {{.Max}} characters."

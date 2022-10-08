@@ -1,0 +1,11 @@
+not_found = "Bulunamadı."
+invalid_request = "Geçersiz istek."
+
+# cars
+car_list = "Araba listesi"
+car_created = "Araba oluşturuldu."
+car_already_exists = "Araba zaten var."
+
+validation_required = "Bu alan gereklidir."
+validation_min = "Bu alan en az %{min} karakter olmalıdır."
+validation_max = "Bu alan en fazla %{max} karakter olmalıdır."
